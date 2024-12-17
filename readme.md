@@ -4,7 +4,7 @@
 **Overview**
 ------------
 
-The **Red-Bus API** provides information about routes, including start and end points, distances, waypoints, and geographic coordinates in KARACHI. It is a simple REST API designed to help developers integrate bus route information into their applications.
+The **Red-Bus API** provides information about routes, including start and end points, distances, waypoints, and geographic coordinates in **KARACHI**. It is a simple REST API designed to help developers integrate bus route information into their applications.
 
 This API is free to use for anyone!
 
