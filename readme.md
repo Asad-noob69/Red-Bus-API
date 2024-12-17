@@ -232,3 +232,5 @@ For any questions or issues, feel free to contact:
 * * * * *
 
 Let me know if you need further assistance! 🚀
+
+![Red Bus Route in Karachi](images/Route.jpg)
