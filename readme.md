@@ -16,7 +16,7 @@ This API is free to use for anyone!
 All API requests will use the following base URL:
 
 ```
-https://red-bus-api.vercel.app/api/routes
+https://red-bus-api.vercel.app/api
 
 ```
 
