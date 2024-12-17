@@ -16,11 +16,9 @@ This API is free to use for anyone!
 All API requests will use the following base URL:
 
 ```
-https://your-hosting-url.com/api
+https://red-bus-api.vercel.app/api/routes
 
 ```
-
-Replace `your-hosting-url.com` with the URL where your API is hosted (e.g., Vercel, Render, Heroku, etc.).
 
 * * * * *
 
@@ -36,8 +34,7 @@ Replace `your-hosting-url.com` with the URL where your API is hosted (e.g., Verc
 **Example Request:**
 
 ```
-GET https://your-hosting-url.com/api/routes
-
+GET https://red-bus-api.vercel.app/api/routes
 ```
 
 **Example Response:**
@@ -113,14 +110,14 @@ GET https://your-hosting-url.com/api/routes/1
 ### With cURL
 
 ```
-curl https://your-hosting-url.com/api/routes
+curl https://red-bus-api.vercel.app/api/routes
 
 ```
 
 ### With JavaScript (Fetch API)
 
 ```
-fetch("https://your-hosting-url.com/api/routes")
+fetch("https://red-bus-api.vercel.app/api/routes")
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error("Error:", error));
@@ -132,7 +129,7 @@ fetch("https://your-hosting-url.com/api/routes")
 ```
 const axios = require('axios');
 
-axios.get("https://your-hosting-url.com/api/routes")
+axios.get("https://red-bus-api.vercel.app/api/routes")
   .then(response => {
     console.log(response.data);
   })
@@ -149,7 +146,7 @@ axios.get("https://your-hosting-url.com/api/routes")
 
 ### Common Errors
 
--   **`404 Not Found`**: The requested route ID does not exist.
+-   **`404 Not Found`**: Route not Found.
 -   **`500 Internal Server Error`**: Something went wrong on the server. Try again later.
 
 **Example Error Response:**
@@ -228,8 +225,8 @@ This project is open-source and licensed under the **MIT License**.
 
 For any questions or issues, feel free to contact:
 
--   **Developer:** Asad
--   **Email:** <your-email@example.com>
+-   **Developer:** Asad Ali
+-   **Email:** <asadaliabbasi787@gmail.com>
 -   **GitHub:** [Asad-noob69](https://github.com/Asad-noob69)
 
 * * * * *
